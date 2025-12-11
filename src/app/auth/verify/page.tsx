@@ -70,9 +70,9 @@ export default function OtpVerificationPage({
           toast.error('OTP verification failed: ', data.message || "Unknown error");
           return;
         }
-        if (data.access) localStorage.setItem("access_token", data.access);
-        if (data.refresh) localStorage.setItem("refresh_token", data.refresh);
-        if (data.data) localStorage.setItem("user", JSON.stringify(data.data));
+        // if (data.access) localStorage.setItem("access_token", data.access);
+        // if (data.refresh) localStorage.setItem("refresh_token", data.refresh);
+        // if (data.data) localStorage.setItem("user", JSON.stringify(data.data));
         // redirect to dashboard
         toast.success("OTP verified successfully! Redirecting to home...");
         router.push("/home");
