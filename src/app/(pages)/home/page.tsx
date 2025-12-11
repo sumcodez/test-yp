@@ -9,8 +9,8 @@ export default function Dashboard() {
   const [user] = useState({ name: 'John Doe', role: 'Administrator' });
   const { data: session } = useSession();
 
-  const userData = localStorage.getItem("user");
-  console.log("User data from localStorage:", userData);
+  // const userData = localStorage.getItem("user");
+  // console.log("User data from localStorage:", userData);
 
   const handleLogout = async() => {
     try {
