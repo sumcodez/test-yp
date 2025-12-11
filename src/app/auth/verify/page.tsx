@@ -7,6 +7,8 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { toast } from "react-toastify";
 
 
+export const dynamic = 'force-dynamic';
+
 interface OtpVerificationProps {
   contact?: string; // Email or phone number that OTP was sent to
 }

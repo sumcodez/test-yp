@@ -10,7 +10,6 @@ const publicPaths = [
   "/api/auth/login",
   "/api/auth/signup",
   "/api/auth/me",
-  "/api/auth/send-otp",
   "/api/auth/verify",
   "/api/auth/refresh",
   "/api/auth/logout",
